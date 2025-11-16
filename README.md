@@ -49,3 +49,7 @@ The UI lives entirely under `frontend/`:
 - `app.js` – fetches data, handles filters, renders cards
 
 Adjust these files as needed; FastAPI serves them automatically at `/` and `/static/*`.
+
+## Candidate Reflection
+
+The file `Sportradar_Reflection.txt` summarizes the work completed for this take-home, details how AI assistance was used, and highlights next steps I'd pursue with more time.

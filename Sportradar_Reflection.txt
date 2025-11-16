@@ -1,0 +1,16 @@
+Reflection on My Sportradar Take-Home Assignment
+
+Which parts of the solution were written by me:
+I wrote the majority of the project’s structure, implementation, and logic myself. This includes designing the architecture, creating the SQLite schema, writing FastAPI routers, handling database connections, implementing event enrichment logic, building SQL filtering, implementing search, creating the seed script, testing in Swagger, and preparing GitHub documentation.
+
+Which parts were generated or influenced by AI, and how I evaluated them:
+AI assisted with structural guidance, concept explanations, error checking, and drafting documentation. All AI-influenced ideas were manually rewritten, tested, and validated. I ensured all final code reflected my own understanding.
+
+Why I made certain technical decisions:
+FastAPI and SQLite were chosen for simplicity and performance in a take-home context. A normalized relational schema fit sports data naturally. Modular routers improved organization. Dynamic SQL filtering was efficient. Search functionality enhanced usability. A seed script guaranteed reproducible testing.
+
+One improvement I would make if I had more time:
+I would build a React frontend to visualize events with filters and improve the end-to-end experience. Additional enhancements could include pagination, sorting, ORM migration, or caching.
+
+Closing Thoughts:
+This assignment strengthened my backend engineering and data modeling skills. AI was used as a learning assistant, but all final logic was written and verified by me.
