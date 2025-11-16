@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Events Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Sports Events</h1>
+            <p>Browse scheduled games, filter by sport, and find details about teams and venues.</p>
+        </div>
+    </header>
+    <main>
+        <section class="filters">
+            <div class="filter-field">
+                <label for="sportFilter">Sport</label>
+                <select id="sportFilter">
+                    <option value="">All sports</option>
+                </select>
+            </div>
+            <div class="filter-field">
+                <label for="dateFilter">Date</label>
+                <input type="date" id="dateFilter">
+            </div>
+            <div class="filter-field grow">
+                <label for="searchFilter">Search</label>
+                <input type="text" id="searchFilter" placeholder="Team, event, or venue">
+            </div>
+            <button id="filterButton" class="primary">Search</button>
+            <button id="resetButton" class="ghost" title="Clear filters">Reset</button>
+        </section>
+
+        <section id="status" class="status"></section>
+
+        <section id="eventsContainer" class="events-grid"></section>
+    </main>
+    <footer>
+        <small>Powered by the Sportradar coding exercise API</small>
+    </footer>
+
+    <script type="module" src="/static/app.js"></script>
+</body>
+</html>
